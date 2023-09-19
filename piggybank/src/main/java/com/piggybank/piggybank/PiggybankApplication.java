@@ -8,7 +8,7 @@ public class PiggybankApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PiggybankApplication.class, args);
-		System.out.println("tushar");
+		
 	}
 
 }
