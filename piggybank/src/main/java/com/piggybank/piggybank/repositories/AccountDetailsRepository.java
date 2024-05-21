@@ -17,6 +17,9 @@ public interface AccountDetailsRepository extends JpaRepository<AccountDetailsEn
     @Query(value="select * from accountdetails where  userid =?1 and accountstatus =?2  ",nativeQuery=true)
     AccountDetailsEntity gettheuseraccountdetails(int userid ,int accountstatus);
 
+
+
+    
     @Transactional
     @Modifying
     @Query(value = "UPDATE accountdetails  SET accountstatus = ?2 ,accountclosingdate= ?3    WHERE accountid = ?1",nativeQuery = true)
