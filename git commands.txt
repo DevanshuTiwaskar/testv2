@@ -1,0 +1,36 @@
+
+Asus@LAPTOP-4FJ9OI91 MINGW64 ~/Desktop/piggybank/https---github.com-tushartiwaskar1997-PiggyBank/piggybank (main)
+$ git remote add origin https://github.com/tushartiwaskar1997/bankapp1.git
+error: remote origin already exists.
+
+Asus@LAPTOP-4FJ9OI91 MINGW64 ~/Desktop/piggybank/https---github.com-tushartiwaskar1997-PiggyBank/piggybank (main)
+$ git .add 
+git: '.add' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Asus@LAPTOP-4FJ9OI91 MINGW64 ~/Desktop/piggybank/https---github.com-tushartiwaskar1997-PiggyBank/piggybank (main)
+$ git add .
+
+Asus@LAPTOP-4FJ9OI91 MINGW64 ~/Desktop/piggybank/https---github.com-tushartiwaskar1997-PiggyBank/piggybank (main)
+$ git remote add origin https://github.com/tushartiwaskar1997/bankapp1.git
+error: remote origin already exists.
+
+Asus@LAPTOP-4FJ9OI91 MINGW64 ~/Desktop/piggybank/https---github.com-tushartiwaskar1997-PiggyBank/piggybank (main)
+$ git remote add clone   https://github.com/tushartiwaskar1997/bankapp1.git
+
+Asus@LAPTOP-4FJ9OI91 MINGW64 ~/Desktop/piggybank/https---github.com-tushartiwaskar1997-PiggyBank/piggybank (main)
+$ git branch -M main
+
+Asus@LAPTOP-4FJ9OI91 MINGW64 ~/Desktop/piggybank/https---github.com-tushartiwaskar1997-PiggyBank/piggybank (main)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+Asus@LAPTOP-4FJ9OI91 MINGW64 ~/Desktop/piggybank/https---github.com-tushartiwaskar1997-PiggyBank/piggybank (main)
+$ git commit -m "Your commit message here"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean

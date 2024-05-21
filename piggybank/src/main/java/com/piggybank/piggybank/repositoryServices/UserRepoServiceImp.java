@@ -29,7 +29,7 @@ public class UserRepoServiceImp implements UserRepositoryservices{
     public UserRepoServiceImp(EntityManager userEntityManager) {
         this.userEntityManager = userEntityManager;
     }
-
+    
     @Override
     public List<UserEntity> getAlltheUsers() {
        
